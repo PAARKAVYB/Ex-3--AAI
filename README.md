@@ -10,7 +10,7 @@ To construct a python program to implement approximate inference using Gibbs Sam
 ## ALGORITHM:
 ### STEP 1:
 Bayesian Network Definition and CPDs:<br>
-<ul> <li>Define the Bayesian network structure using the BayesianNetwork class from pgmpy.models.</li>
+<ul> <li>Define the Bayesian network structure using the Bayesian Network class from pgmpy.models.</li>
 <li>Define Conditional Probability Distributions (CPDs) for each variable using the TabularCPD class.</li>
 <li>Add the CPDs to the network.</li></ul>
 
@@ -35,7 +35,7 @@ Gibbs Sampling and MCMC:<br>
 ### STEP 5:
 Perform MCMC Sampling:<br>
 <ul><li>Use the sample() method of the GibbsSampling instance to perform MCMC sampling.</li>
-<li>Store the generated samples in the samples variable.</li></ul>
+<li>Store the generated samples in the sample's variable.</li></ul>
 
 ### STEP 6:
 Approximate Probability Calculation:<br>
@@ -125,4 +125,4 @@ print(query_result)
 ![output](op2.png)
 
 ## RESULT:
-Thus, Gibb's Sampling( Approximate Inference method) is succuessfully implemented using python.
+Thus, Gibb's Sampling( Approximate Inference method) is successfully implemented using python.
